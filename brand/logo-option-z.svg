@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title">
+  <title id="title">Kugelblitz logo with lightning as the Z</title>
+  <rect width="900" height="280" rx="6" fill="#EEF0FA"/>
+  <g fill="none" stroke="#182039" stroke-linecap="round" stroke-width="8">
+    <ellipse cx="450" cy="47" rx="58" ry="24" transform="rotate(-25 450 47)"/>
+    <ellipse cx="450" cy="47" rx="58" ry="24" transform="rotate(25 450 47)"/>
+  </g>
+  <text x="75" y="158" fill="#182039" font-family="Georgia,serif" font-size="91" font-weight="700" letter-spacing="-3">KUGELBLIT</text>
+  <path d="M777 82 744 151h30l-18 59 60-84h-36l23-44Z" fill="#7656D6"/>
+  <text x="450" y="220" fill="#5367D8" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4" text-anchor="middle">PLASMOID POWER HEALING</text>
+</svg>

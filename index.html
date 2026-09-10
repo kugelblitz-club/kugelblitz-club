@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kugelblitz Club is bringing plasma healing into the hands of the people.">
+  <title>Kugelblitz Club — Restore the voltage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="#" aria-label="Kugelblitz Club home"><img src="brand/logo.svg" alt="Kugelblitz Club — Plasmoid Power Healing"></a>
+    <div class="language-switcher" aria-label="Language selector">
+      <button class="language-button active" type="button" data-language="en" aria-pressed="true">EN</button>
+      <span>/</span>
+      <button class="language-button" type="button" data-language="es" aria-pressed="false">ES</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow" data-en="Kugelblitz.Club" data-es="Kugelblitz.Club">Kugelblitz.Club</div>
+        <h1><span data-en="Healing" data-es="Sanar">Healing</span><br><span data-en="is" data-es="es">is</span> <i data-en="voltage." data-es="voltaje.">voltage.</i></h1>
+        <p class="lead"><span data-en="Restore the voltage." data-es="Restaura el voltaje.">Restore the voltage.</span><br><span data-en="Revitalize your health." data-es="Revitaliza tu salud.">Revitalize your health.</span></p>
+      </div>
+      <figure class="hero-image"><img src="brand/imagery/plasma-orb.jpg" alt="A glowing plasma orb held in two hands"><figcaption data-en="Recharge, Restore, Revitilize." data-es="Recarga, restaura, revitaliza.">Recharge, Restore, Revitilize.</figcaption></figure>
+    </section>
+    <section class="intro" id="about">
+      <div class="intro-grid container">
+        <div class="intro-copy">
+          <p class="history-copy" data-en="After years of suppression, plasmoid technologies are coming into the light. Inspired by the work of Tesla, Oudin, Darsonval, Lakhowski and more." data-es="Después de años de supresión, las tecnologías plasmoides están saliendo a la luz. Inspirados por el trabajo de Tesla, Oudin, Darsonval, Lakhowski y otros.">After years of suppression, plasmoid technologies are coming into the light. Inspired by the work of Tesla, Oudin, Darsonval, Lakhowski and more.</p>
+          <p class="statement-copy"><span data-en="Kugelblitz aims to bring plasma healing into the hands of the people." data-es="Kugelblitz busca poner la sanación con plasma en las manos de las personas.">Kugelblitz aims to bring plasma healing into the hands of the people.</span><br><span data-en="Literally." data-es="Literalmente.">Literally.</span></p>
+          <p class="center-copy vitality-copy" data-en="Charge yourself with radiant energy and experience a new level of vitality." data-es="Cárgate de energía radiante y experimenta un nuevo nivel de vitalidad.">Charge yourself with radiant energy and experience a new level of vitality.</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-header container"><div class="eyebrow" data-en="More to come..." data-es="Más por venir...">More to come...</div></div>
+      <div class="contact-grid container">
+        <div><h2><span data-en="Stay" data-es="Mantente">Stay</span> in<br><span data-en="the loop." data-es="el día.">the loop.</span></h2></div>
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/kugelblitz.tech@proton.me" method="POST">
+          <input type="hidden" name="_subject" value="New Kugelblitz Club contact">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <label for="name" data-en="Name" data-es="Nombre">Name</label><input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email" data-en="Email" data-es="Correo electrónico">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="message" data-en="Message" data-es="Mensaje">Message</label><textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit"><span data-en="Send message" data-es="Enviar mensaje">Send message</span> <span>↗</span></button>
+          <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
+          <a class="telegram-link" href="https://t.me/+DK7U4gg51Sc5NDM0" target="_blank" rel="noopener"><img src="brand/icons/telegram.svg" alt=""><span data-en="Join us on Telegram" data-es="Únete a Telegram">Join us on Telegram</span> <span>↗</span></a>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner container"><img src="brand/logo-light.svg" alt="Kugelblitz Club"><span>© <span id="year"></span> Kugelblitz Club — <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
